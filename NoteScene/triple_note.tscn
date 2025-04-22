@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://k38i08o3l2w"]
+
+[ext_resource type="Texture2D" uid="uid://bpk7cvuwlme4j" path="res://Assets/Triple Note.png" id="1_l0sik"]
+
+[node name="TripleNote" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_l0sik")

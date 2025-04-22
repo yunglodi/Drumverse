@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1s4ulk21f4pq"]
+
+[ext_resource type="Texture2D" uid="uid://ceyhnqb38wr5r" path="res://Assets/Eigth Note.png" id="1_etqya"]
+
+[node name="EightNote" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_etqya")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://biq2jy3uh3cxn"]
+
+[ext_resource type="Texture2D" uid="uid://bfo54kbi1mxcr" path="res://Assets/Quarter Note.png" id="1_76d5x"]
+
+[node name="QuarterNote" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_76d5x")

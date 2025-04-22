@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ehclb0g7ngkv"]
+
+[ext_resource type="Texture2D" uid="uid://hoicvp050mx6" path="res://Assets/Whole Note.png" id="1_ga70v"]
+
+[node name="WholeNote" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_ga70v")

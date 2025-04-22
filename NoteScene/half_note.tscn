@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://42dxiikjeso6"]
+
+[ext_resource type="Texture2D" uid="uid://biks3dvnl8v10" path="res://Assets/Half Note.png" id="1_i3kux"]
+
+[node name="HalfNote" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_i3kux")

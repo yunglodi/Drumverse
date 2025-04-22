@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://djmsgau7df3od"]
+
+[ext_resource type="Texture2D" uid="uid://uh5jht1jirx2" path="res://Assets/O.png" id="1_cf756"]
+[ext_resource type="Script" uid="uid://dyyvqj5v30fuq" path="res://Scripts/hit_effect.gd" id="1_xlc76"]
+
+[node name="HitEffect" type="Node2D"]
+script = ExtResource("1_xlc76")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_cf756")
